@@ -9,3 +9,4 @@ pytz~=2022.7
 confuse~=2.0.1
 jinja2
 
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
