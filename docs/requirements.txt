@@ -2,7 +2,7 @@
 sphinx_rtd_theme
 point
 pytest
-requests~=2.31.0
+requests~=2.32.2
 
 boto3~=1.34.43
 
@@ -17,3 +17,5 @@ sphinxcontrib-napoleon
 sphinx-jinja2-compat>=0.1.1
 sphinx-toolbox>=2.16.0
 enum-tools[sphinx]
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
